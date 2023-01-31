@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<head><title>Welcome!</title></head>
-    <body>
-        <object type="text/html" height="40px" data="header.html"></object>
-        <h1>Hi! This is my site</h1>
-        <p>Things are a little sparse right now. I want to style things a bit at some point. Links to other pages are above, links to socials are below</p>
-        <br/>
-        <object type="text/html" data="footer.html"></object>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <title>Welcome!</title>
+</head>
+
+<body>
+    <object class="header" type="text/html"  data="components/header.html"></object>
+    <img class="profile" src="images/ponder.jpeg" alt="Wizard pondering a seers orb">
+    <h1>Hi! This is my site</h1>
+    <p>You can expect to find the things I want to make here. I will probably talk about things like video games, TTRPGs, art, music, programming, and my general musings</p>
+    <p>Things are a little sparse right now. I want to style things a bit at some point. Links to other pages are above,
+        links to socials are below</p>
+    <br />
+    <object class="footer" type="text/html" data="components/footer.html"></object>
+</body>
+
 </html>

@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<head><title>Blogs</title></head>
-    <body>
-        <object type="text/html" height="40px" data="header.html"></object>
-        <h1>Articles</h1>
-        <p>I haven't written anything yet, but there will be stuff here eventually</p>
-        <ul>
-            <li><a href="articles/1.html"  target="_parent">So I made a blog</a></li>
-            <li><a href="articles/2.html"  target="_parent">TestTestTest</a></li>
-        </ul>
-        <br/>
-        <object type="text/html" data="footer.html"></object>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <title>Blogs</title>
+</head>
+
+<body>
+    <object class="header" type="text/html"  data="components/header.html"></object>
+    <h1>Articles</h1>
+    <p>A collection of my mad ramblings</p>
+    <ul>
+        <li><a href="articles/1.html" target="_parent">So I made a blog</a></li>
+        <li><a href="articles/2.html" target="_parent">TestTestTest</a></li>
+    </ul>
+    <br />
+    <object class="footer" type="text/html" data="components/footer.html"></object>
+</body>
+
 </html>

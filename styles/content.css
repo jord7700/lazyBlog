@@ -1,0 +1,12 @@
+body {
+    background-color: #6effcd;
+    color: #fe4a88;
+    font-size: 16px;
+}
+
+.profile {
+    height: 180px; 
+    width: 260px;
+    float: left;
+    padding-right: 8px;
+}
